@@ -11,3 +11,9 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
+.container {
+    margin: 20px;
+    padding: 10px;
+    background: #eaeaea;
+    border: 1px solid #ccc;
+}
