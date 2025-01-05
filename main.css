@@ -11,11 +11,3 @@ header {
     padding: 1rem 0;
     text-align: center;
 }
-nav a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
-}
-nav a:hover {
-    text-decoration: underline;
-}
