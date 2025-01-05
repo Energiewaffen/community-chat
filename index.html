@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +18,17 @@
         <a href="#contact">Contact</a>
     </nav>
     <main>
-        <!-- Sections go here -->
+        <section class="container">
+            <h2>Live Chat</h2>
+            <div class="chat-box" id="chat-box">
+                <!-- Messages will appear here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="Nachricht eingeben...">
+                <button onclick="sendMessage()">Senden</button>
+            </div>
+        </section>
+        <!-- Additional sections omitted for brevity -->
     </main>
     <script src="scripts/main.js"></script>
 </body>
